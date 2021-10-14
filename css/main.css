@@ -1,0 +1,40 @@
+/*root elements*/
+:root{
+	--main-color: #19c8fa;
+	--second-color: #a2a2a2;
+	--transparent-color: rgba(15, 116, 143, 0.66);
+	--transition-time: .3s;
+	--section-padding: 100px;
+}
+/*html main elements*/
+html{
+	scroll-behavior: smooth;
+}
+/*End the Variables*/
+/*global values*/
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+::selection{
+	color: #19c8fa;
+}
+/*google fonts*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/*ul pre work*/
+ul{
+	list-style: none;
+}
+/*container is the most important element in the design*/
+.container{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 97px;
+}
