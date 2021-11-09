@@ -72,6 +72,7 @@ header.shadow{
 }
 .nav-bar{
 	display: flex;
+	align-items: center;
 }
 .nav-bar a{
 	font-size: 1rem;
