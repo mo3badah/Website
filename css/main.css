@@ -59,8 +59,7 @@ header{
 	position: sticky;
 	background: var(--bg-color);
 	padding: 18px 10%;
-	transition: .3s;
-	
+	transition: var(--transition-time);
 }
 header.shadow{
 	box-shadow: 0 0 4px var(--shadow-bar);
@@ -82,6 +81,8 @@ header.shadow{
 }
 .nav-bar a:hover{
 	color: var(--hover);
+	/*letter-spacing: 2px;*/
+	/*transition: var(--transition-time);*/
 }
 .menu-bar{
 	font-size: 24px;
@@ -216,11 +217,12 @@ header.shadow{
 	border: 5px solid var(--text-color);
 	border-radius: 50%;
 	font-size: var(--medium-font);
+	position: relative;
 }
 .skills .skills-photo .name{
 	position: relative;
-	width: 280px;
-	height: 280px;
+	width: 70%;
+	height: 70%;
 	transition: 1s ease;
 }
 .skills .skills-photo .name span{
@@ -231,10 +233,10 @@ header.shadow{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 150px;
-	height: 150px;
+	width: 53.5%;
+	height: 53.5%;
 	font-weight: bolder;
-	font-size: 50px;
+	font-size: 180%;
 	color: white;
 	background-color: var(--main-color);
 	border-radius: 50%;
@@ -244,47 +246,47 @@ header.shadow{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 80px;
-	height: 80px;
+	width: 28.5%;
+	height: 28.5%;
 	font-weight: bolder;
-	font-size: 50px;
+	font-size: 180%;
 	color: white;
 	background-color: var(--main-color);
 	border-radius: 50%;
 }
 .skills .skills-photo .fa-html5{
-	top: -100px;
-	left: 100px;
+	top: -35.7%;
+	left: 35.7%;
 	/*transform: translate(-50%,-50%);*/
 	
 }
 .skills .skills-photo .fa-css3{
-	top: -40px;
-	left: -40px;
+	top: -14.28%;
+	left: -14.28%;
 }
 .skills .skills-photo .fa-js-square{
-	top: -40px;
-	right: -40px;
+	top: -14.28%;
+	right: -14.28%;
 }
 .skills .skills-photo .fa-node{
-	bottom: -40px;
-	right: -40px;
+	bottom: -14.28%;
+	right: -14.28%;
 }
 .skills .skills-photo .fa-database{
-	bottom: -40px;
-	left: -40px;
+	bottom: -14.28%;
+	left: -14.28%;
 }
 .skills .skills-photo .fa-java{
-	bottom: -100px;
-	left: 100px;
+	bottom: -35.7%;
+	left: 35.7%;
 }
 .skills .skills-photo .fa-terminal{
-	left: -100px;
-	top: 100px;
+	left: -35.7%;
+	top: 35.7%;
 }
 .skills .skills-photo .fa-github{
-	right: -100px;
-	top: 100px;
+	right: -35.7%;
+	top: 35.7%;
 }
 .skills .skills-photo:hover .name{
 	transform: rotate(360deg);
@@ -615,6 +617,9 @@ footer .copy-right span{
 	.home-img{
 		order: initial;
 	}
+	.about-text p{
+		word-spacing: -2px;
+	}
 	.about-container{
 		grid-template-columns: 1fr;
 	}
@@ -632,7 +637,11 @@ footer .copy-right span{
 		justify-content: center;
 		padding: 2rem;
 	}
-	
+	.skills .skills-photo{
+		width: 250px;
+		height: 250px;
+		font-size:calc(var(--medium-font)*.7);
+	}
 }
 @media (max-width: 340px) {
 	:root{
