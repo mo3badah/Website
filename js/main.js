@@ -52,4 +52,58 @@ document.forms[0].onsubmit = function (e){
         e.preventDefault();
     }
 }
-
+let swiper2 = new Swiper(".swiper-container",{
+    spaceBetween: 5,
+    centeredSlides: true,
+    // loop:true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        clickable: true,
+    },
+    loop: true,
+    slidesPerView: 'auto', /* Set me! */
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        640: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    }
+});
+// preview projects
+let projectContainer = document.querySelector('.all-projects');
+let projects = document.querySelectorAll('.all-projects .details');
+document.querySelectorAll('.portfolio .portfolio-content .portfolio-img').forEach(project =>{
+    project.onclick = () =>{
+        projectContainer.style.display = 'flex';
+        let name = project.getAttribute('data-name');
+        projects.forEach(details =>{
+            let target = details.getAttribute('data-target');
+            if (name === target){
+                details.classList.add('active');
+            }
+        })
+    }
+});
+projectContainer.querySelector('#close-preview').onclick = () =>{
+    projectContainer.style.display = 'none';
+    projects.forEach(close =>{
+        close.classList.remove('active');
+    })
+}

@@ -15,6 +15,11 @@
 	<!--	normalize .css-->
 	<link rel = "stylesheet"
 	      href = "css/normlize.css">
+<!--	swiper download-->
+	<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+	/>
 	<!--	font awesome .css-->
 	<link rel = "stylesheet"
 	      href = "all.min.css">
@@ -40,9 +45,9 @@
 	</header>
 	<section class="home" id="home">
 		<div class="social">
-			<a href = "https://github.com/MohamedReda98"><i class="fab fa-github"></i></a>
-			<a href = "https://www.linkedin.com/in/promohamedreda98/"><i class="fab fa-linkedin"></i></a>
-			<a href = "#"><i class="fab fa-behance"></i></a>
+			<a href = "https://github.com/mohamed3badah"><i class="fab fa-github"></i></a>
+			<a href = "https://www.linkedin.com/in/mohamed3badah"><i class="fab fa-linkedin"></i></a>
+			<a href = "https://codepen.io/mohamed3badah"><i class="fab fa-codepen"></i></a>
 		</div>
 		<div class="home-img">
 			<img src = "images/mine-removebg-preview2.png"
@@ -55,6 +60,7 @@
 			<p>An Undergraduate Computer science engineering <br> and interested in
 				web development and Artificial intelligence <br> I resume my
 				journey as web developer.</p>
+<!--			href = "call-to:00201091402807"-->
 			<a href = "#contact"
 			   class = "btn">Contact Me</a>
 		</div>
@@ -102,7 +108,7 @@
 					<!--					box 3-->
 					<div class="info-box">
 						<i class="fas fa-envelope"></i>
-						<span>pro.mohamedreda98@gmail.com</span>
+						<span>mohamed3badah@gmail.com</span>
 					</div>
 					<a class="btn" href = "files/last%20Mohamed%20Reda.pdf">Download CV</a>
 
@@ -152,7 +158,7 @@
 						NodeJS & Express
 					</h4>
 					<div class="prog">
-						<span style="width: 85%" data-progress="85%"></span>
+						<span style="width: 55%" data-progress="55%"></span>
 					</div>
 				</div>
 				<div class="prog-holder">
@@ -185,25 +191,25 @@
 			<div class="services-box">
 				<i class="fas fa-paint-brush"></i>
 				<h3>Web <br>Front End</h3>
-				<a href = "/frontEnd.html">Learn More</a>
+				<a href = "#portfolio">Learn More</a>
 			</div>
 <!--            Second service-->
 			<div class="services-box">
 				<i class="fas fa-server"></i>
 				<h3>Web <br>Back End</h3>
-				<a href = "/backEnd.html">Learn More</a>
+				<a href = "#portfolio">Learn More</a>
 			</div>
 <!--            Third Service-->
 			<div class="services-box">
 				<i class="fab fa-java"></i>
-				<h3>Desktop <br>Java Apps</h3>
-				<a href = "/java.html">Learn More</a>
+				<h3>Desktop <br>Java Projects</h3>
+				<a href = "#portfolio">Learn More</a>
 			</div>
 <!--            Fourth Service-->
 			<div class="services-box">
 				<i class="fab fa-windows"></i>
 				<h3>Office <br>Excel Projects</h3>
-				<a href = "/office.html">Learn More</a>
+				<a href = "#portfolio">Learn More</a>
 			</div>
 		</div>
 	</section>
@@ -213,58 +219,911 @@
 			<span>Our Recent Work</span>
 		</div>
 		<div class="portfolio-content">
-			<div class="portfolio-img">
-				<img src = "images/p1.jpg"
+			<div class="portfolio-img" data-name="food">
+				<img src = "images/Projects/food/1.png"
 				     alt = "">
 				<div class="caption">
-					<h4>Awesome Image</h4>
-					<p>Photography</p>
+					<h4>Food Site</h4>
+					<p>Web FrontEnd</p>
 				</div>
 			</div>
-			<div class="portfolio-img">
-				<img src = "images/p2.jpg"
+			<div class="portfolio-img" data-name="portfoilo">
+				<img src = "images/Projects/portfoilo/2.png"
 				     alt = "">
 				<div class="caption">
-					<h4>Awesome Image</h4>
-					<p>Photography</p>
+					<h4>Portfolio Project</h4>
+					<p>Web FrontEnd</p>
 				</div>
 			</div>
-			<div class="portfolio-img">
-				<img src = "images/p3.jpg"
+			<div class="portfolio-img" data-name="templateTwo">
+				<img src = "images/Projects/templateTwo/7.png"
 				     alt = "">
 				<div class="caption">
-					<h4>Awesome Image</h4>
-					<p>Photography</p>
+					<h4>Organization Template</h4>
+					<p>Web FrontEnd</p>
 				</div>
 			</div>
-			<div class="portfolio-img">
-				<img src = "images/p4.jpg"
+			<div class="portfolio-img" data-name="azkar">
+				<img src = "images/Projects/azkar/1.png"
 				     alt = "">
 				<div class="caption">
-					<h4>Awesome Image</h4>
-					<p>Photography</p>
+					<h4>Azkar Project</h4>
+					<p>Web BackEnd</p>
 				</div>
 			</div>
-			<div class="portfolio-img">
-				<img src = "images/p5.jpg"
+			<div class="portfolio-img" data-name="templateOne">
+				<img src = "images/Projects/templateOne/1.png"
 				     alt = "">
 				<div class="caption">
-					<h4>Awesome Image</h4>
-					<p>Photography</p>
+					<h4>Organization Template</h4>
+					<p>Web FrontEnd</p>
 				</div>
 			</div>
-			<div class="portfolio-img">
-				<img src = "images/p6.jpg"
+			<div class="portfolio-img" data-name="sweetCashier">
+				<img src = "images/Projects/sweetCashier/selling.png"
 				     alt = "">
 				<div class="caption">
-					<h4>Awesome Image</h4>
-					<p>Photography</p>
+					<h4>Desert Cashier</h4>
+					<p>Java Projects</p>
+				</div>
+			</div>
+			<div class="portfolio-img" data-name="sweetVba">
+				<img src = "images/Projects/sweetVba/7.png"
+				     alt = "">
+				<div class="caption">
+					<h4>Desert Vba Cashier</h4>
+					<p>Office Projects</p>
+				</div>
+			</div>
+			<div class="portfolio-img" data-name="snakeLadder">
+				<img src = "images/Projects/snakeLadder/1.png"
+				     alt = "">
+				<div class="caption">
+					<h4>Snake and Ladder</h4>
+					<p>Web Game</p>
+				</div>
+			</div>
+			<div class="portfolio-img" data-name="quiz">
+				<img src = "images/Projects/quiz/4.png"
+				     alt = "">
+				<div class="caption">
+					<h4>Angel and Points</h4>
+					<p>Web Quiz</p>
 				</div>
 			</div>
 		</div>
 	</section>
+	<div class="all-projects">
+		<div id="close-preview" class="fas fa-times"></div>
+		<form action = "/"
+		      class = "details" data-target="sweetCashier">
+			<div class="heading">
+				<h2>Desert Cashier</h2>
+				<span>Java Projects</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<video autoplay muted controls loop>
+								<source src = "images/Projects/sweetCashier/1.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<video autoplay muted controls loop>
+								<source src = "images/Projects/sweetCashier/2.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<video autoplay muted controls loop>
+								<source src = "images/Projects/sweetCashier/3.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetCashier/main.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetCashier/selling.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetCashier/edit.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetCashier/table.png"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>This is a big java project which contains of about five pages which can make the main functions of cashier
+						system functionality like</p>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Make orders</li>
+							<li>print receipts</li>
+							<li>Customize orders info and prices</li>
+							<li>Add or delete cashier users and their credentials</li>
+							<li>Save all data with database server</li>
+							<li>Make some statics for selling and products</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-java"></i>
+								<span>JAVA</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>XML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+							<div class="info-box">
+								<i class="fas fa-database"></i>
+								<span>MYSQL</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="sweetVba">
+			<div class="heading">
+				<h2>Desert Vba Cashier</h2>
+				<span>Office Projects</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<video autoplay muted controls loop>
+								<source src = "images/Projects/sweetVba/1.mp4" type="video/mp4">
+							</video>
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetVba/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetVba/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetVba/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetVba/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetVba/5.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetVba/6.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/sweetVba/7.png"
+							     alt = "">
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>This is a good small project for small shops to have a small cashier system and save the data of selling in a local excel sheet so they can
+					make all statics they want so they can have a good actions to enlarge thier work.</p>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Make orders</li>
+							<li>print receipts</li>
+							<li>Customize orders info and prices</li>
+							<li>Save all data with Excel sheet locally</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fas fa-code"></i>
+								<span>Visual Basic</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fas fa-file-excel"></i>
+								<span>Excel</span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="azkar">
+			<div class="heading">
+				<h2>Azkar Project</h2>
+				<span>Web BackEnd</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/azkar/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/azkar/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/azkar/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/azkar/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/azkar/5.jpg"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/azkar/6.jpg"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>Azkar project is a small project to preview the daily muslim azkar so they can easily read it and with a counter that count the number
+					they have to say them and have some additional prayers from the holly qura'n.</p>
+					<a href = "https://mohamed3badah.github.io/Azkar--v1/">For live preview click here <i class="fas fa-link"></i></a>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Preview azkar</li>
+							<li>Count down counter</li>
+							<li>Disappear after finishing zekr</li>
+							<li>Additional prayers from holly qura'n</li>
+							<li>Adjusted for all devices like phones, laptops, tablets and etc.</li>
+							<li>Night mode and light mode options</li>
+							<li>Upcoming features to be added</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-js"></i>
+								<span>JavaScript</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>HTML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="templateOne">
+			<div class="heading">
+				<h2>Organization Template</h2>
+				<span>Web FrontEnd</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/5.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/6.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/7.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateOne/8.png"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>FrontEnd template so any organization can make fill it's own data inside it and preview their goals and services and public data for
+					their clients and reinforcement their digital existence on all devices online.</p>
+					<a href = "https://mohamed3badah.github.io/TemplateOne/">For live preview click here <i class="fas fa-link"></i></a>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Interactive header</li>
+							<li>Beautiful full view</li>
+							<li>Main services</li>
+							<li>Public data preview</li>
+							<li>Adjusted for all devices like phones, laptops, tablets and etc.</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-js"></i>
+								<span>JavaScript</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>HTML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="templateTwo">
+			<div class="heading">
+				<h2>Organization Template</h2>
+				<span>Web FrontEnd</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/5.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/6.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/7.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/8.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/templateTwo/9.png"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>FrontEnd template so any organization can make fill it's own data inside it and preview their goals and services and public data for
+						their clients and reinforcement their digital existence on all devices online.</p>
+					<a href = "https://mohamed3badah.github.io/TemplateTwo/">For live preview click here <i class="fas fa-link"></i></a>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Interactive header</li>
+							<li>Beautiful full view</li>
+							<li>Main services</li>
+							<li>Public data preview</li>
+							<li>Dynamic and interactive with user hover and click</li>
+							<li>Adjusted for all devices like phones, laptops, tablets and etc.</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-js"></i>
+								<span>JavaScript</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>HTML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="portfoilo">
+			<div class="heading">
+				<h2>Portfolio Project</h2>
+				<span>Web FrontEnd</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/5.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/6.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/7.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/8.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/9.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/portfoilo/10.png"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>Portfolio project is a project to preview your work and make your own portfolio on your own website and can have new clients using the
+						attractive preview and list all your contacts with adjust preview on all devices and support for dark theme.</p>
+					<a href = "https://mohamed3badah.github.io/Website/">For live preview you are here... <i class="fas fa-link"></i></a>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Interactive header</li>
+							<li>Beautiful full view</li>
+							<li>Main services</li>
+							<li>Main projects</li>
+							<li>Contact form</li>
+							<li>Light and dark themes options</li>
+							<li>Dynamic and interactive with user hover and click</li>
+							<li>Adjusted for all devices like phones, laptops, tablets and etc.</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-js"></i>
+								<span>JavaScript</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>HTML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="snakeLadder">
+			<div class="heading">
+				<h2>Snake and Ladder</h2>
+				<span>Web Game</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/snakeLadder/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/snakeLadder/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/snakeLadder/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/snakeLadder/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/snakeLadder/5.png"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>Snake and ladder is a traditional game we played so much when we were children, so I tried to use my knowledge in web development and try to
+						make small graphic with logic JavaScript code to make two players and every one have to use dice to get numbers and continue till one player
+						win.</p>
+					<a href = "https://mohamed3badah.github.io/Cubic/">For live preview click here <i class="fas fa-link"></i></a>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Little graphics</li>
+							<li>Two Players</li>
+							<li>3d Dice</li>
+							<li>Counting and check snakes and ladders</li>
+							<li>Congrats winner</li>
+							<li>Play it any numbers of times as you want</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-js"></i>
+								<span>JavaScript</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>HTML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="quiz">
+			<div class="heading">
+				<h2>Angel and Points</h2>
+				<span>Web Quiz</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/quiz/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/quiz/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/quiz/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/quiz/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/quiz/5.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/quiz/6.png"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>Quiz is good idea for education it makes student think and make him love the education process so if we use technology with quizzes it make
+						students more happy as they learn and fun, so I tried to use web for preview question then create random options and ask him for correct answer
+						he can train as he want and we save all tries even he close the app and return.</p>
+					<a href = "https://mohamed3badah.github.io/AngleQuiz/">For live preview angle click here <i class="fas fa-link"></i></a>
+					<a href = "https://mohamed3badah.github.io/PointQuiz/">For live preview point click here <i class="fas fa-link"></i></a>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Little graphics</li>
+							<li>Dynamic and random question preview</li>
+							<li>Random choices and places</li>
+							<li>Counting how many times of success and failure</li>
+							<li>Save score even if closing app</li>
+							<li>Quiz it any numbers of times as you want</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-js"></i>
+								<span>JavaScript</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>HTML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+		<form action = "/"
+		      class = "details" data-target="food">
+			<div class="heading">
+				<h2>Food Site</h2>
+				<span>Web FrontEnd</span>
+			</div>
+			<div class="portfolio">
+				<div class="heading">
+					<h2>Gallery</h2>
+					<!--		<span>Our Recent Work</span>-->
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper portfolio-content">
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/1.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/2.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/3.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/4.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/5.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/6.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/7.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/8.png"
+							     alt = "">
+						</div>
+						<div class="swiper-slide portfolio-img">
+							<img src = "images/Projects/food/9.png"
+							     alt = "">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-img">
+				<div class="description">
+					<h2>Description</h2>
+					<p>Food Site is a front end template for restaurants and coffee shops, so they can share thier work for users so people can order them and with
+						small backend we can make any numbers of projects for restaurants.</p>
+					<a href = "https://mohamed3badah.github.io/FoodSite/">For live preview click here <i class="fas fa-link"></i></a>
+				</div>
+				<div class="items">
+					<div class="features">
+						<h2>Features</h2>
+						<ul class="functions">
+							<li>Interactive and dynamic user experience</li>
+							<li>Preview products very professional</li>
+							<li>Can fill order details</li>
+							<li>Search and Cart options</li>
+							<li>They can add their contacts</li>
+							<li>Adjusted for all devices like phones, laptops, tablets and etc.</li>
+						</ul>
+					</div>
+					<div class="languages">
+						<h2>Languages</h2>
+						<div class="information">
+
+							<!--					box 1-->
+							<div class="info-box">
+								<i class="fab fa-js"></i>
+								<span>JavaScript</span>
+							</div>
+
+							<!--					box 2-->
+							<div class="info-box">
+								<i class="fab fa-html5"></i>
+								<span>HTML</span>
+							</div>
+
+							<!--					box 3-->
+							<div class="info-box">
+								<i class="fab fa-css3"></i>
+								<span>CSS</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
 <!--	Contact Section-->
-	<section class="contact" id="contact">
+	<div class="contact" id="contact">
 		<div class="heading">
 			<h2>Contact</h2>
 			<span>Contact Us</span>
@@ -316,7 +1175,7 @@
 				</a>
 			</div>
 
-	</section>
+	</div>
 
 	<!--start footer-->
 	<footer id="footer">
@@ -326,15 +1185,16 @@
 				<a href = "https://www.facebook.com/ALPROFmr/"><i class="fab fa-facebook-f"></i></a>
 				<a href = "https://twitter.com/ALPROFmr"><i class="fab fa-twitter"></i></a>
 				<a href = "https://www.instagram.com/mohamed3badah/"><i class="fab fa-instagram"></i></a>
-				<a href = "https://www.linkedin.com/in/promohamedreda98/"><i class="fab fa-linkedin"></i></a>
+				<a href = "https://www.linkedin.com/in/mohamed3badah"><i class="fab fa-linkedin"></i></a>
 			</div>
 			<p class="copy-right">&copy; 2022 <span>Mohamed Reda</span> All Right Reserved</p>
 		</div>
 	</footer>
 	<!--end footer-->
 
-
-<script src="js/main.js"></script>
+<!--download swiper.js-->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
 <script src = "fileServer.js"></script>
 </body>
 </html>
