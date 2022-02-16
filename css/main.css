@@ -585,12 +585,13 @@ form.details.active{
 	right: 2.5rem;
 	font-size: 4rem;
 	cursor: pointer;
-	color: white;
 	transition: .5s ease-in-out;
+	z-index: 1120;
+	color: var(--text-color);
 }
 #close-preview:hover{
 	transform: rotate(90deg);
-	color: var(--main-color);
+	color: var(--bg-color);
 }
 form .about-img .items{
 	margin: 10px;
@@ -720,6 +721,16 @@ form .about-img .description p{
 		height: 70vw;
 		font-size:calc(var(--medium-font)*.7);
 	}
+	form.details .about-img{
+		display: flex;
+		flex-direction: column;
+	}
+	#close-preview{
+		top: 1rem;
+		right: 1.5rem;
+		font-size: 2.5rem;
+	}
+	
 }
 @media (max-width: 340px) {
 	:root{
